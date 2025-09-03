@@ -1,6 +1,11 @@
+import ScrollbarIndicator from "./components/ScrollbarIndicator";
+
 const App = () => {
-  return <div>App</div>;
+  return (
+    <div>
+      <ScrollbarIndicator />
+    </div>
+  );
 };
 
 export default App;
- 
